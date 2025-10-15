@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Playwrite+RO&family=Poppins&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+
+  --color-grisbleu:#e2f2f6;
+  --color-bleufonce:#084973;
+  --color-accent:#08b3e2;
+  --color-principal:#08b3e2;
+
+
+  --color-one:#0c4d79;
+  --color-two:#1cb5e6;
+  --color-three:#fcd623;
+  --color-four:#1c2d5a;
+  --color-five:#bcbdc0;
+  --color-six:#231f20;
+  --color-nine:#125ba3;
+--color-seven:#800080;
+
+  --font-dmsans:"DM Sans", "sans-serif";
+  --font-poppins:"Poppins", "sans-serif";
+  --font-playwrite: "Playwrite RO", "serif";
+
+}
+body{
+  background-color: #fff;
+  font-family: 'Poppins',sans-serif;
+}
+.leaflet-tooltip.city-tooltip {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-shadow: 0 0 3px #000;
+}
+
+@keyframes underline {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.hover\:after\:animate-underline::after {
+  transform-origin: left;
+  animation: underline 0.3s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.fade-in-delay-1 {
+  animation: fadeIn 1s ease-out 0.2s forwards;
+}
+
+.fade-in-delay-2 {
+  animation: fadeIn 1s ease-out 0.4s forwards;
+}
+
+.fade-in-delay-3 {
+  animation: fadeIn 1s ease-out 0.6s forwards;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 80s linear infinite;
+}
