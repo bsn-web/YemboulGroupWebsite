@@ -22,6 +22,8 @@ const cities = [
   { name: "Alger", coords: [36.7538, 3.0588], country: "algeria", logo: "/images/logo.png" },
   { name: "Oran", coords: [35.6971, -0.6308], country: "algeria", logo: "/images/logo.png" },
   { name: "Annaba", coords: [36.9041, 7.7550], country: "algeria", logo: "/images/logo.png" },
+  { name: "Constantine", coords: [36.3650, 6.6147], country: "algeria", logo: "/images/logo.png" },
+  { name: "Adrar", coords: [27.8743, -0.2939], country: "algeria", logo: "/images/logo.png" },
   { name: "Ouargla", coords: [31.9493, 5.3250], country: "algeria", logo: "/images/logo.png" },
   { name: "Hassi Messaoud", coords: [31.7000, 6.0667], country: "algeria", logo: "/images/logo.png" },
   { name: "Batna", coords: [35.5500, 6.1667], country: "algeria", logo: "/images/logo.png" },
