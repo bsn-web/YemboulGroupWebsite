@@ -11,7 +11,7 @@ const ContactData = () => {
     algeria: {
       city: "Algiers",
       address:
-        "12 Chemin de Sidi Yahia, Centre Commercial ZEMZEM n 293-294, Hydra",
+        "Cité Said Hamdin N°195/574 Bt° N°50 1er Etage, Bir Mourad Rais, Alger",
       image: "/images/algeria2.jpg",
     },
     morocco: {
