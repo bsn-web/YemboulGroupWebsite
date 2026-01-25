@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="text-center">
             <p className="text-sm">
               <FaMapMarkerAlt className="inline mr-2" />
-              12 Chemin de Sidi Yahia, Centre Commercial ZEMZEM n 293-294, Hydra, Algiers, Algeria
+              Cité Said Hamdin N°195/574 Bt° N°50 1er Etage, Bir Mourad Rais, Alger
             </p>
             <p className="mb-2 text-sm">
               <MdPhoneAndroid className="inline mr-2" />
