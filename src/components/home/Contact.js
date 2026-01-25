@@ -15,7 +15,7 @@ export default function Contact() {
     algeria: {
       city: "Algiers",
       address:
-        "12 Chemin de Sidi Yahia, Centre Commercial ZEMZEM n 293-294, Hydra",
+        "Cité Said Hamdin N°195/574 Bt° N°50 1er Etage, Bir Mourad Rais, Alger",
       phone1: "+213 (0)23 46 24 49",
       phone2: "+213 661 990 264",
       email: "contact@yemboulgroup.com",
