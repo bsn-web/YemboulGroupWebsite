@@ -108,6 +108,37 @@ const Projects = () => {
       area: "410 sq Gross",
       description: ""
     }
+    {
+      id: 11,
+      title: "Merck kitchen project 2025",
+      images: ["/images/projects/Merck/1.jpg","images/projects/Merck/2.jpg","images/projects/Merck/3.jpg","images/projects/Merck/4.jpg"],
+      year: "2025",
+      duration: "",
+      role: "Design & Build",
+      area: "169 sq Gross",
+      description: ""
+    }
+  {
+      id: 12,
+      title: "Siemens Energy project 2026",
+      images: ["images/projects/Siemens/1.jpg","images/projects/Siemens/2.jpg","images/projects/Siemens/3.jpg","images/projects/Siemens/4.jpg"],
+      year: "2026",
+      duration: "",
+      role: "•	Design and project management",
+      area: "1000 sq Gross",
+      description: ""
+    }
+  {
+      id: 13,
+      title: "Maersk Skikda project 2026",
+      images: ["images/projects/Maersk/Maersk Skikda/01.jpg","images/projects/Maersk/Maersk Skikda/2.jpg","images/projects/Maersk/Maersk Skikda/3.jpg","images/projects/Maersk/Maersk Skikda/4.jpg"],
+      year: "2026",
+      duration: "",
+      role: "Design & Build",
+      area: "150 sq Gross",
+      description: ""
+    }
+  
   ];
 
   const openModal = (project) => {
