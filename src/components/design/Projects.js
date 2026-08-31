@@ -131,7 +131,7 @@ const Projects = () => {
   {
       id: 13,
       title: "Maersk Skikda project 2026",
-      images: ["/images/projects/Maersk/Maersk Skikda/01.jpeg","/images/projects/Maersk/Maersk Skikda/2.jpeg","/images/projects/Maersk/Maersk Skikda/3.jpeg","/images/projects/Maersk/Maersk Skikda/4.jpeg"],
+      images: ["/images/projects/Maersk/Maersk Skikda/01.png","/images/projects/Maersk/Maersk Skikda/2.png","/images/projects/Maersk/Maersk Skikda/3.jpeg","/images/projects/Maersk/Maersk Skikda/4.png"],
       year: "2026",
       duration: "",
       role: "Design & Build",
