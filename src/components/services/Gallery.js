@@ -17,6 +17,7 @@ const projects = [
   { title: 'HVAC', image: '/images/services/HVAC.jpg' },
   { title: 'Manutention', image: '/images/services/Manutention.jpg' },
   { title: 'Transport', image: '/images/services/Transport.jpg' },
+  { title: 'Pigeon control', image: '/images/services/Dep.jpg' },
 ]
 
 export default function Gallery() {
