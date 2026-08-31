@@ -1,9 +1,9 @@
 import React from 'react';
 
 const OurClients = () => {
-  const logos = Array.from({ length: 68 }, (_, i) => {
+  const logos = Array.from({ length: 63 }, (_, i) => {
     const id = i + 1;
-    return `/images/partners/${id}.${id === 1 || id === 10 || id === 16 || id === 68 ? 'jpg' : 'png'}`;
+    return `/images/partners/${id}.${id === 1 || id === 10 || id === 16 || id === 63 ? 'jpg' : 'png'}`;
   });
 
   return (
