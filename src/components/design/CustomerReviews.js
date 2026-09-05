@@ -8,10 +8,10 @@ const CustomerReviews = () => {
   const reviews = [
     {
       id: 1,
-      name: "Amina",
-      role: "IT Engineer",
+      name: "Merck",
+      role: "Site Manager",
       rating: 5,
-      review: "The team transformed our outdated home into a modern masterpiece. Their attention to detail and creative solutions exceeded all our expectations. We couldn't be happier with the results!",
+      review: "I want to express my utmost thanks for a wonderful collaboration on the kitchen project which was long overdue.The finish looks amazing and I am sure our Merck colleagues will enjoy it starting today. Thank you for the timely execution and weekly meetings and updates, Look forward to collaborating on many more small projects in the future.",
     },
     {
       id: 2,
